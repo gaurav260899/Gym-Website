@@ -18,3 +18,59 @@
         #d7337a
     */
 }
+
+/*===reset default browser style ==*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+ 
+}
+
+body{
+  font-family: var(--font-name);
+
+}
+
+html {
+  scroll-behavior: smooth;
+  
+
+}
+
+
+section{
+  padding: 50px 20px;
+}
+
+a{
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover{
+  color: unset;
+}
+
+ul{
+  list-style: none;
+}
+
+/*==reusable class */
+
+.container{
+  width: 1140px;
+  padding: 0px 15px;
+  margin:auto;
+}
+
+.section_title{
+  color:var(--heading-color);
+  font-weight: 700;
+}
+
+
+/*======================================Responsive=====work in progresss==========================================*/
+
+  
+
